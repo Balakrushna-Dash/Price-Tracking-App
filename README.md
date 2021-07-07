@@ -17,10 +17,14 @@ User will enter this page as sonn as he/she logs in. Here basically the basic in
 ![home](https://user-images.githubusercontent.com/56407204/124710493-7cbf7d00-df1a-11eb-8500-c24f902bb373.PNG)
 
 # Add Url ::
-This pagge is meant for adding URLS and the price upperbound depending on which user wants to notify himself through the app. Any invalid email would be accepted.
+This pagge is meant for adding URLS and the price upperbound depending on which user wants to notify himself through the app. Any invalid email would be accepted. The valid URL requests given here gets reflected in the ***My Url List*** section.
 
 ![add](https://user-images.githubusercontent.com/56407204/124710746-cf009e00-df1a-11eb-9120-e922717f6bcf.PNG)
 
-# My list ::
+# My Url list ::
 This page shows all the requests of URLS filled by the user. Cancellationn option is also available. Once the price goes beyond the upperbound the product atomatically gets deleted from the list and the email gets sent to the user rightaway.
 
+![my list](https://user-images.githubusercontent.com/56407204/124711168-5ea64c80-df1b-11eb-8c8d-f2e0267b4f98.PNG)
+
+# The price tracking script::
+This part basically comprises of the python file ***app2.py*** . Here I am going through the entire database where all the URL request of each and every user is stored. Then using the BeautifulSoup lib I'm parsing the html page of corresponding product page in flipkart. From here I'm searching for the ***div*** tag with ***clas :: " _30jeq3 _16Jk6d "***. Below I have shown why that particular atribute of the div tag is being used for getting the price of the product. 

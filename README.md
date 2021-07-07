@@ -14,6 +14,8 @@ up the login form.
 # Home page ::
 User will enter this page as sonn as he/she logs in. Here basically the basic instruction about using the website is mentioned. I reccomend to read it before exploring the website.
 
+![home](https://user-images.githubusercontent.com/56407204/124710493-7cbf7d00-df1a-11eb-8500-c24f902bb373.PNG)
 
 # Add Url ::
-This pagge is meant for adding 
+This pagge is meant for adding URLS and the price upperbound depending on which user wants to notify himself through the app. Any invalid email would be accepted.
+

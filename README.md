@@ -28,3 +28,11 @@ This page shows all the requests of URLS filled by the user. Cancellationn optio
 
 # The price tracking script::
 This part basically comprises of the python file ***app2.py*** . Here I am going through the entire database where all the URL request of each and every user is stored. Then using the BeautifulSoup lib I'm parsing the html page of corresponding product page in flipkart. From here I'm searching for the ***div*** tag with ***clas :: " _30jeq3 _16Jk6d "***. Below I have shown why that particular atribute of the div tag is being used for getting the price of the product. 
+
+![proof](https://user-images.githubusercontent.com/56407204/124712749-5818d480-df1d-11eb-9319-38f2c1a2252f.png)
+
+And whenever the price goes beyond the price upperbound , the user gets a notification by registered email by the help of ***Send Mail*** function and the corresponding product gets deleted from the data base using ***Cancel*** function. 
+Finally this entire process is carried out inside a loop with a precise time gap (currently 30 sec) 
+
+
+

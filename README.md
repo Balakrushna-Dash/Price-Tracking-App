@@ -34,5 +34,6 @@ This part basically comprises of the python file ***app2.py*** . Here I am going
 And whenever the price goes beyond the price upperbound , the user gets a notification by registered email by the help of ***Send Mail*** function and the corresponding product gets deleted from the data base using ***Cancel*** function. 
 Finally this entire process is carried out inside a loop with a precise time gap (currently 30 sec) 
 
+![finall](https://user-images.githubusercontent.com/56407204/124713385-1a687b80-df1e-11eb-8e7a-0860fb0fa775.PNG)
 
 

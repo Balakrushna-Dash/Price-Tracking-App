@@ -8,3 +8,12 @@ Here I have built a simple website with flask for user interface. Lets dive deep
 # Login / Create account ::
 This is the entrance of the website accomodating all the user interactions. If new to the website then user has to create one first , if not he/she can diretly enter by filling 
 up the login form.
+
+![loginsignin](https://user-images.githubusercontent.com/56407204/124709112-bee7bf00-df18-11eb-982c-df7e10a11253.jpg)
+
+# Home page ::
+User will enter this page as sonn as he/she logs in. Here basically the basic instruction about using the website is mentioned. I reccomend to read it before exploring the website.
+
+
+# Add Url ::
+This pagge is meant for adding 

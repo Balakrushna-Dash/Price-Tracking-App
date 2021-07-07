@@ -19,3 +19,8 @@ User will enter this page as sonn as he/she logs in. Here basically the basic in
 # Add Url ::
 This pagge is meant for adding URLS and the price upperbound depending on which user wants to notify himself through the app. Any invalid email would be accepted.
 
+![add](https://user-images.githubusercontent.com/56407204/124710746-cf009e00-df1a-11eb-9120-e922717f6bcf.PNG)
+
+# My list ::
+This page shows all the requests of URLS filled by the user. Cancellationn option is also available. Once the price goes beyond the upperbound the product atomatically gets deleted from the list and the email gets sent to the user rightaway.
+
